@@ -37,13 +37,13 @@ LaQual Framework
 ```
 LaQual/
 │── label_metrics_generator.py # 标签和指标生成器
-│   ├── question_generator.py     # 问题生成器
-│   ├── app_tester.py            # 应用测试器
-│   └── response_evaluator.py    # 响应评估器
-├── main.py                      # 主程序
-├── requirements.txt             # 依赖包
-├── config.example.py            # 配置示例
-└── README.md                    # 项目说明
+├── question_generator.py      # 问题生成器
+├── app_tester.py              # 应用测试器
+├── response_evaluator.py      # 响应评估器
+├── main.py                    # 主程序
+├── requirements.txt           # 依赖包
+├── config.example.py          # 配置示例
+└── README.md                  # 项目说明
 ```
 
 ##  快速开始
@@ -102,7 +102,7 @@ python main.py --step 4
 
 ### 1. 标签和指标生成器 (Label & Metrics Generator)
 
-- **功能**：基于应用类别和标签生成评估指标库
+- **功能**：基于应用标签生成评估指标
 - **输入**：应用标签数据 (`apps_by_tags.json`)
 - **输出**：标签指标数据 (`tag_metrics.json`)
 - **特点**：
@@ -163,7 +163,6 @@ python main.py --step 4
 {
   "app_info": {
     "title": "应用名称",
-    "tags": ["标签1", "标签2"],
     "metrics": {...}
   },
   "evaluations": {
@@ -171,7 +170,6 @@ python main.py --step 4
       "指标1": {
         "问题1": {
           "score": 4,
-          "final_score": 3.8,
           "pros": ["优点1", "优点2"],
           "cons": ["不足1", "不足2"],
           "suggestions": ["建议1", "建议2"]
@@ -197,5 +195,6 @@ python main.py --step 4
 - Python社区
 
 ---
+
 
 
