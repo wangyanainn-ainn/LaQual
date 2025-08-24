@@ -15,8 +15,8 @@ LaQual框架旨在解决LLM应用质量评估中的以下挑战：
 ```
 LaQual Framework
 ├── 标签生成 (Label Generation)
-│   ├── 应用分类分析
-│   ├── 指标库生成
+├── 应用分类分析
+├── 指标库生成
 │   └── 时间衰减算法
 ├── 问题生成 (Question Generation)
 │   ├── 指标解析
@@ -36,8 +36,7 @@ LaQual Framework
 
 ```
 LaQual/
-├── core/                          # 核心模块
-│   ├── label_metrics_generator.py # 标签和指标生成器
+│── label_metrics_generator.py # 标签和指标生成器
 │   ├── question_generator.py     # 问题生成器
 │   ├── app_tester.py            # 应用测试器
 │   └── response_evaluator.py    # 响应评估器
@@ -186,7 +185,7 @@ python main.py --step 4
 ##  联系方式
 
 - 项目维护者：Wang Yan
-- 项目链接：[GitHub链接]
+- 邮箱：wangyan@mails.cuc.edu.cn
 
 **注意**：本项目仅供学术研究使用，请遵守相关法律法规和API使用条款。
 
@@ -198,4 +197,5 @@ python main.py --step 4
 - Python社区
 
 ---
+
 
