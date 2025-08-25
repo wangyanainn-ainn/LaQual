@@ -154,7 +154,7 @@ cp config.example.py config.py
 {
   "app_info": {
     "title": "应用名称",
-    "tags": ["标签1", "标签2"],
+    "label": ["标签"],
     "metrics": {...}
   },
   "evaluations": {
