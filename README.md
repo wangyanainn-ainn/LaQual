@@ -82,31 +82,6 @@ cp config.example.py config.py
 
 **注意**：请确保API密钥的安全性，不要在代码中硬编码密钥。
 
-### 运行完整流程
-
-```bash
-python main.py --full --apps-file apps_by_tags.json
-```
-
-### 运行单个步骤
-
-```bash
-# 步骤0：生成标签
-python main.py --step 0 --apps-file sample_apps.json
-
-# 步骤1：生成指标
-python main.py --step 1 --apps-file apps_by_tags.json
-
-# 步骤2：应用静态指标检查
-python main.py --step 2 --apps-file sample_apps.json
-
-# 步骤3：生成评估问题
-python main.py --step 3
-
-# 步骤4：评估响应
-python main.py --step 4
-```
-
 ##  核心功能
 
 ### 1. 标签生成 (Label Generation)
