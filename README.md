@@ -175,7 +175,7 @@ cp config.example.py config.py
 ##  联系方式
 
 - 项目维护者：Wang Yan
-- 项目链接：[GitHub链接]
+- 项目链接：[https://github.com/wangyanainn-ainn/LaQual]
 
 **注意**：本项目仅供学术研究使用，请遵守相关法律法规和API使用条款。
 
