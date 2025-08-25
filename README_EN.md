@@ -1,4 +1,4 @@
-# LaQual: LLM Application Quality evaluation Framework
+# LaQual: A Novel Framework for Automated Evaluation of LLM App Quality
 
 LaQual is a specialized automated framework for evaluating the quality of Large Language Model (LLM) apps. The framework achieves comprehensive quality evaluation of LLM apps through 5 core functions: label generation, metric generation, static indicator evaluation, evaluation task generation, and response quality evaluation.
 
@@ -174,7 +174,7 @@ Uses a decay coefficient of `0.99^(quarters-1)` to ensure fair comparison betwee
 ## Contact Information
 
 - Project Maintainer: Wang Yan
-- Project Link: [GitHub Link]
+- Project Link: [https://github.com/wangyanainn-ainn/LaQual]
 
 **Note**: This project is for academic research purposes only. Please comply with relevant laws and regulations and API usage terms.
 
@@ -186,3 +186,4 @@ Thanks to the following open-source projects and technologies:
 - Python Community
 
 ---
+
